@@ -76,6 +76,25 @@ background-color: red;
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale(2);
+}
+
+.ex-7-img{
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter: contrast(2) grayscale(1);
+}
+
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    filter: contrast(2) grayscale(1);
+    border-radius: 30px;
+}
 
 
 
